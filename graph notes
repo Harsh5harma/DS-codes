@@ -1,0 +1,11 @@
+Adjacency matrix: a 2d array of VxV vertices. Each row and column represent a vertex. 
+a value of 1 at a[i][j] means there's an edge b/w vertices i and j.
+Benefit: Checking if an edge exists or not b/w vertex a and vertex b is extremely fast but we have to save space for every
+possible edge so it wastes some space.
+
+Adjacency list: an array of linked lists where the index of the array represents a vertex and each element
+in its linked list represents the other vertices taht form an edge with the vertex.
+Benefit: Efficient in terms of storage because we only need to store the values for the edges. For a graph with a million of vertices,
+this can mean a lot of saved space.
+
+Spanning tree: A spanning tree is a sub graph of an undirected graph which connects every vertex only once and has no cycle
